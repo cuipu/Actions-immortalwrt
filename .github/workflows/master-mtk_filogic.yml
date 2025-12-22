@@ -24,7 +24,7 @@ env:
   FREE_DISK_SH: scripts/free_disk_space.sh
   ENV_SH: scripts/environment.sh
   REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_BRANCH: master
+  REPO_BRANCH: 24.10
   # 修改 REPO_BRANCH 来达到更改编译版本
   PLATFORM_FILE: configs/filogic.txt
   CONFIG_FILE: configs/Packages-L.txt
@@ -34,6 +34,7 @@ env:
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: false
   UPLOAD_RELEASE: true
+  SSH_ACTIONS: true  # 将 false 改为 true
   TZ: Asia/Shanghai
 
 jobs:
