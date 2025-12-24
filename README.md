@@ -1,5 +1,6 @@
 **编译顺序，周一 Allwinner、周二 mt7621、周三 Rockchip、周四 mtk_filogic、周五 X86-64**
-## ip地址：192.168.8.1<br>
+## ip地址：192.168.2.1<br> 
+默认IP在scripts/init-settings.sh中修改
 默认开启smartdns解析，本地端口1053，外地端口6553（可以自己看看里面的解析服务器）<br>
 ![argon2](doc/argon2.png)<br>
 
